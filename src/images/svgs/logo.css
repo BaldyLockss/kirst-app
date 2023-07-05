@@ -1,0 +1,56 @@
+.homepage-circle {
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+  animation: animate-circle 6s ease forwards;
+}
+/* .cake-wrapper {
+  opacity: 0;
+  animation: fadeIn 2s ease 1.5s forwards;
+} */
+.homepage-cake {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: animateCake 2.8s ease forwards;
+}
+
+.homepage-text {
+  position: relative;
+  opacity: 0;
+  animation: text-fadein 1.5s ease 1.5s forwards;
+  background: #d5def0;
+}
+@keyframes animate-circle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes animateCake {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  33% {
+    stroke-dashoffset: 0;
+  }
+  66% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes text-fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
