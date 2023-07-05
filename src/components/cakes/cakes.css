@@ -1,0 +1,30 @@
+.cakes-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--background);
+  /* margin-top: 5em; */
+}
+.slider-container {
+  height: 100%;
+}
+
+.cake-btns {
+  display: block;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 20em;
+  margin: 0 4em 1em;
+}
+.cake-btns button {
+  width: 6em;
+  margin: 0 2em;
+  padding: 0.4em;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--font-text);
+  background: var(--header);
+  border: 1px solid black;
+}
