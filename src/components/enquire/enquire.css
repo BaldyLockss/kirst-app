@@ -2,7 +2,7 @@
   background-color: var(--background);
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  height: 100%;
 }
 .enquire-container h2 {
   color: var(--font-title);

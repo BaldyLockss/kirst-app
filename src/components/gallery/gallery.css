@@ -1,0 +1,67 @@
+.gallery-container {
+  display: flex;
+  position: static;
+  justify-content: space-evenly;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4em;
+  border: 2px solid var(--header);
+  aspect-ratio: 1/1;
+  width: 26em;
+  background-color: var(--header);
+  color: var(--font-text);
+}
+.gallery-container img {
+  object-fit: cover;
+  object-position: top;
+  border-radius: 4em;
+}
+/* .gallery-container h1 {
+  z-index: 1;
+} */
+.o-cakes {
+  position: relative;
+  width: 26em;
+  aspect-ratio: 1/1;
+  bottom: 9em;
+  right: -3em;
+  margin: auto;
+  transform: rotate(20deg);
+  border: 1px solid var(--header);
+}
+.cheesecakes {
+  /* display: flex; */
+  position: relative;
+  top: 8em;
+  margin: auto;
+  transform: rotate(-20deg);
+  width: 26em;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--header);
+}
+.b-cakes {
+  position: relative;
+  bottom: 9em;
+  margin: auto;
+  transform: rotate(20deg);
+  width: 26em;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--header);
+}
+.other {
+  position: relative;
+  top: 8em;
+  left: -3em;
+  margin: auto;
+  transform: rotate(-20deg);
+  width: 26em;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--header);
+}
