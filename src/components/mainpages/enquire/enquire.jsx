@@ -37,7 +37,8 @@ const Enquire = () => {
     <div className="enquire-container">
       <h2>Order enquiry form.</h2>
       <div className="enquire-form">
-        <form name="contact" method="post">
+        <form name="contact" method="post" onSubmit="submit">
+          <input type="hidden" name="form-name" value="contact" />
           <input
             // onChange={(e) => inputHandler(e)}
             type="text"
