@@ -17,27 +17,27 @@ const Enquire = () => {
   const inputHandler = (e) => {
     setCakeForm({ ...cakeForm, [e.target.name]: e.target.value });
   };
-  const submitHandler = (e) => {
-    e.preventDefault();
-    console.log(cakeForm);
-    alert(
-      `your name is ${cakeForm.name}, number: ${cakeForm.number}, email: ${cakeForm.email}, required date is ${cakeForm.date} you would like:${cakeForm.message} the size you would like is;${cakeForm.size}`
-    );
-    setCakeForm({
-      name: "",
-      number: "",
-      email: "",
-      date: "",
-      message: "",
-      size: "",
-    });
-  };
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
+  //   console.log(cakeForm);
+  //   alert(
+  //     `your name is ${cakeForm.name}, number: ${cakeForm.number}, email: ${cakeForm.email}, required date is ${cakeForm.date} you would like:${cakeForm.message} the size you would like is;${cakeForm.size}`
+  //   );
+  //   setCakeForm({
+  //     name: "",
+  //     number: "",
+  //     email: "",
+  //     date: "",
+  //     message: "",
+  //     size: "",
+  //   });
+  // };
 
   return (
     <div className="enquire-container">
       <h2>Order enquiry form.</h2>
       <div className="enquire-form">
-        <form onSubmit={(e) => submitHandler(e)}>
+        <form name="contact" method="post">
           <input
             onChange={(e) => inputHandler(e)}
             type="text"
@@ -47,7 +47,7 @@ const Enquire = () => {
           />
           <input
             onChange={(e) => inputHandler(e)}
-            type="text"
+            type="number"
             name="number"
             inputMode="numeric"
             placeholder="Number"
@@ -82,7 +82,7 @@ const Enquire = () => {
             placeholder="Size"
             value={cakeForm.size}
           />
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
       <div className="enquire-btns">
