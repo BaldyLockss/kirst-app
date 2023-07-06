@@ -1,6 +1,6 @@
 .App {
   height: 100dvh;
-  font-family: "Soria Soria" sans-serif;
+  font-family: "Soria Soria" monospace;
   display: flex;
   flex-direction: column;
 }

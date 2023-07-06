@@ -8,7 +8,7 @@ const Gallery = () => {
       <div className="gallery-container">
         <div className="occasional-cakes">
           <h2>Occational cakes</h2>
-          <Link to="/cakes">
+          <Link to="/occational">
             <img
               className="image"
               src={require(`../../../images/gallerypage/venomremoved.png`)}
@@ -18,7 +18,7 @@ const Gallery = () => {
         </div>
         <div className="cheesecakes">
           <h2>Cheesecakes</h2>
-          <Link className="cheesecakes media">
+          <Link to="/cheesecakes">
             <img
               className="image"
               src={require(`../../../images/gallerypage/CKremoved.png`)}
@@ -28,7 +28,7 @@ const Gallery = () => {
         </div>
         <div className="basic-cakes">
           <h2>Basic cakes</h2>
-          <Link className="basic-cakes media">
+          <Link to="/basic">
             <img
               className="image"
               src={require(`../../../images/gallerypage/basiccake.png`)}
@@ -38,7 +38,7 @@ const Gallery = () => {
         </div>
         <div className="other">
           <h2>Other items</h2>
-          <Link className="other media">
+          <Link to="/other">
             <img
               className="image"
               src={require(`../../../images/gallerypage/cupcakes.png`)}

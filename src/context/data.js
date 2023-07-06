@@ -3,48 +3,32 @@ export const slides = [
     src: "basicCake.jpg",
     alt: "image 1 for carousel",
   },
-  {
-    src: "cheesecake10.jpg",
-    alt: "image 2  for carousel",
-  },
-  {
-    src: "traybake2.jpg",
-    alt: "image 3 for carousel",
-  },
-  {
-    src: "venom.jpg",
-    alt: "image 4 for carousel",
-  },
-  {
-    src: "basicCake.jpg",
-    alt: "image 1 for carousel",
-  },
-  {
-    src: "cheesecake10.jpg",
-    alt: "image 2  for carousel",
-  },
-  {
-    src: "traybake2.jpg",
-    alt: "image 3 for carousel",
-  },
-  {
-    src: "venom.jpg",
-    alt: "image 4 for carousel",
-  },
-  {
-    src: "basicCake.jpg",
-    alt: "image 1 for carousel",
-  },
-  {
-    src: "cheesecake10.jpg",
-    alt: "image 2  for carousel",
-  },
-  {
-    src: "traybake2.jpg",
-    alt: "image 3 for carousel",
-  },
-  {
-    src: "venom.jpg",
-    alt: "image 4 for carousel",
-  },
+];
+export const occationCakes = [
+  { src: "oc1.jpg", alt: "occational cakes" },
+  { src: "oc2.jpg", alt: "occational cakes" },
+  { src: "oc3.jpg", alt: "occational cakes" },
+  { src: "oc4.jpg", alt: "occational cakes" },
+  { src: "oc5.jpg", alt: "occational cakes" },
+  { src: "oc6.jpg", alt: "occational cakes" },
+  { src: "oc7.jpg", alt: "occational cakes" },
+  { src: "oc8.jpg", alt: "occational cakes" },
+  { src: "oc9.jpg", alt: "occational cakes" },
+  { src: "oc10.jpg", alt: "occational cakes" },
+  { src: "oc11.jpg", alt: "occational cakes" },
+  { src: "oc12.jpg", alt: "occational cakes" },
+  { src: "oc13.jpg", alt: "occational cakes" },
+  { src: "oc14.jpg", alt: "occational cakes" },
+  { src: "oc15.jpg", alt: "occational cakes" },
+  { src: "oc16.jpg", alt: "occational cakes" },
+  { src: "oc17.jpg", alt: "occational cakes" },
+  { src: "oc18.jpg", alt: "occational cakes" },
+  { src: "oc19.jpg", alt: "occational cakes" },
+  { src: "oc20.jpg", alt: "occational cakes" },
+  { src: "oc21.jpg", alt: "occational cakes" },
+  { src: "oc22.jpg", alt: "occational cakes" },
+  { src: "oc23.jpg", alt: "occational cakes" },
+  { src: "oc24.jpg", alt: "occational cakes" },
+  { src: "oc25.jpg", alt: "occational cakes" },
+  { src: "oc26.jpg", alt: "occational cakes" },
 ];
