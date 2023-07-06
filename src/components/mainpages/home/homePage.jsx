@@ -1,5 +1,5 @@
 import "./homePage.css";
-import Logo from "../../images/svgs/logo";
+import Logo from "../../../images/svgs/logo";
 
 const HomePage = () => {
   return (

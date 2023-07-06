@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 2em;
+  /* height: 100%; */
+  background-color: var(--background);
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  gap: 2em;
+}
+.img {
+  width: clamp(11em, 10vw, 40em);
+  aspect-ratio: 1/1;
+  border-radius: 4em;
+}
+@media (max-width: 1000px) {
+  .container {
+    height: inherit;
+    margin: 0;
+  }
+  .image-container {
+    width: 100%;
+    gap: 1.5em;
+  }
+}

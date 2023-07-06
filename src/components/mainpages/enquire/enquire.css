@@ -65,3 +65,8 @@ textarea {
   background: var(--header);
   border: 1px solid black;
 }
+@media (max-width: 1000px) {
+  .enquire-container {
+    height: inherit;
+  }
+}

@@ -1,5 +1,5 @@
 import { useNavigate, Link } from "react-router-dom";
-import { motion as m } from "framer-motion";
+// import { motion as m } from "framer-motion";
 import "./about.css";
 
 const About = () => {
