@@ -1,22 +1,22 @@
 import { useNavigate, Link } from "react-router-dom";
 import "./enquire.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Enquire = () => {
   const navigate = useNavigate();
 
-  const [cakeForm, setCakeForm] = useState({
-    name: "",
-    number: "",
-    email: "",
-    date: "",
-    message: "",
-    size: "",
-  });
+  // const [cakeForm, setCakeForm] = useState({
+  //   name: "",
+  //   number: "",
+  //   email: "",
+  //   date: "",
+  //   message: "",
+  //   size: "",
+  // });
 
-  const inputHandler = (e) => {
-    setCakeForm({ ...cakeForm, [e.target.name]: e.target.value });
-  };
+  // const inputHandler = (e) => {
+  //   setCakeForm({ ...cakeForm, [e.target.name]: e.target.value });
+  // };
   // const submitHandler = (e) => {
   //   e.preventDefault();
   //   console.log(cakeForm);
