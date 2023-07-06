@@ -39,48 +39,48 @@ const Enquire = () => {
       <div className="enquire-form">
         <form name="contact" method="post">
           <input
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             type="text"
             name="name"
             placeholder="Name"
-            value={cakeForm.name}
+            // value={cakeForm.name}
           />
           <input
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             type="number"
             name="number"
             inputMode="numeric"
             placeholder="Number"
-            value={cakeForm.number}
+            // value={cakeForm.number}
           />
           <input
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             type="email"
             name="email"
             placeholder="Email"
-            value={cakeForm.email}
+            // value={cakeForm.email}
           />
           <input
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             type="text"
             name="date"
             placeholder="Rough date required - e.g. 'last week in july'"
-            value={cakeForm.date}
+            // value={cakeForm.date}
           />
           <textarea
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             name="message"
             cols="30"
             rows="10"
             placeholder="What would you like?"
-            value={cakeForm.message}
+            // value={cakeForm.message}
           ></textarea>
           <input
-            onChange={(e) => inputHandler(e)}
+            // onChange={(e) => inputHandler(e)}
             type="text"
             name="size"
             placeholder="Size"
-            value={cakeForm.size}
+            // value={cakeForm.size}
           />
           <button type="submit">Submit</button>
         </form>
