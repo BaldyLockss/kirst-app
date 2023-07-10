@@ -7,8 +7,8 @@ const Gallery = () => {
     <div className="outer-container">
       <div className="gallery-container">
         <div className="occasional-cakes">
-          <h2>Occational cakes</h2>
-          <Link to="/occational">
+          <h2>Occasion cakes</h2>
+          <Link to="/occasional">
             <img
               className="image"
               src={require(`../../../images/gallerypage/venomremoved.png`)}
@@ -21,7 +21,7 @@ const Gallery = () => {
           <Link to="/cheesecakes">
             <img
               className="image"
-              src={require(`../../../images/gallerypage/CKremoved.png`)}
+              src={require(`../../../images/gallerypage/cheesecake.png`)}
               alt="cheesecake"
             />
           </Link>
@@ -31,7 +31,7 @@ const Gallery = () => {
           <Link to="/basic">
             <img
               className="image"
-              src={require(`../../../images/gallerypage/basiccake.png`)}
+              src={require(`../../../images/gallerypage/basic cake.png`)}
               alt="basic cake"
             />
           </Link>
@@ -41,7 +41,7 @@ const Gallery = () => {
           <Link to="/other">
             <img
               className="image"
-              src={require(`../../../images/gallerypage/cupcakes.png`)}
+              src={require(`../../../images/gallerypage/other.png`)}
               alt="other items"
             />
           </Link>

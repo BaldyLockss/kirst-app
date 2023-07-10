@@ -1,19 +1,18 @@
 import "./basic.css";
-// import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { slides } from "../../../context/data";
+import { basicCakes } from "../../../context/data";
 
 const Basic = () => {
   const navigate = useNavigate();
   return (
     <div className="basic-container">
       <div className="basic-image-container">
-        {slides.map((slide, i) => {
+        {basicCakes.map((basic, i) => {
           return (
             <img
               className="basic-img"
-              src={require(`../../../images/cakepage/${slide.src}`)}
-              alt={slide.alt}
+              src={require(`../../../images/basiccakes/${basic.src}`)}
+              alt={basic.alt}
               key={i}
             />
           );

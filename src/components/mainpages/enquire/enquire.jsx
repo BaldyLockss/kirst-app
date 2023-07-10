@@ -31,7 +31,7 @@ const Enquire = () => {
             placeholder="What would you like?"
           ></textarea>
           <input type="text" name="size" placeholder="Size" />
-          <button type="submit">Submit</button>
+          <button type="submit">Enquire</button>
         </form>
       </div>
       <div className="enquire-btns">

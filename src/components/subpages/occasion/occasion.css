@@ -1,12 +1,12 @@
-.basic-container {
+.occasion-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--background);
-  height: 100%;
+  height: inherit;
 }
-.basic-image-container {
+.occasion-image-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -14,19 +14,19 @@
   gap: 2em;
   margin-top: 1em;
 }
-.basic-img {
+.occasion-img {
   width: 15em;
   aspect-ratio: 1/1;
   border-radius: 4em;
   margin: 0.2em;
 }
-.asics-btns {
+.occasion-btns {
   display: flex;
   justify-content: space-evenly;
   align-self: center;
   width: 16em;
 }
-.basic-btns button {
+.occasion-btns button {
   width: 6em;
   margin: 1em;
   padding: 0.4em;
@@ -39,15 +39,15 @@
   border: 1px solid black;
 }
 @media (max-width: 1000px) {
-  .basic-container {
+  .occasion-container {
     height: inherit;
   }
-  .basic-image-container {
+  .occasion-image-container {
     width: 100%;
     gap: 1.5em;
     margin: 0;
   }
-  .basic-img {
+  .occasion-img {
     width: 10em;
   }
 }

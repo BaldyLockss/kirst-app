@@ -1,19 +1,18 @@
 import "./cheesecake.css";
-// import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { slides } from "../../../context/data";
+import { cheesecakes } from "../../../context/data";
 
 const Cheesecake = () => {
   const navigate = useNavigate();
   return (
     <div className="cheesecake-container">
       <div className="cheesecake-image-container">
-        {slides.map((slide, i) => {
+        {cheesecakes.map((cCake, i) => {
           return (
             <img
               className="cheesecake-img"
-              src={require(`../../../images/cakepage/${slide.src}`)}
-              alt={slide.alt}
+              src={require(`../../../images/cheesecakes/${cCake.src}`)}
+              alt={cCake.alt}
               key={i}
             />
           );

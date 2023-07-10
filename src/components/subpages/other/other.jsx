@@ -1,19 +1,18 @@
 import "./other.css";
-// import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { slides } from "../../../context/data";
+import { others } from "../../../context/data";
 
 const Other = () => {
   const navigate = useNavigate();
   return (
     <div className="other-container">
       <div className="other-image-container">
-        {slides.map((slide, i) => {
+        {others.map((other, i) => {
           return (
             <img
               className="other-img"
-              src={require(`../../../images/cakepage/${slide.src}`)}
-              alt={slide.alt}
+              src={require(`../../../images/otherItems/${other.src}`)}
+              alt={other.alt}
               key={i}
             />
           );
